@@ -8,7 +8,7 @@ function configureListeners() {
         // iterate over images and add mouseover event listeners      
     } 
 }
-
+// i'm not really sure if this part worked correctly, as i didn't notice the size of the color images changing.  I'm not sure if they were supposed to though
 function addOpacity(event) {
     // add appropriate CSS class
     if (!this.classList.contains('dim')){
