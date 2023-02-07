@@ -9,6 +9,7 @@ function configureListeners() {
     } 
 }
 // i'm not really sure if this part worked correctly, as i didn't notice the size of the color images changing.  I'm not sure if they were supposed to though
+//It is not the size that changes but the opacity of the color. Take a look at the style sheet in styles.css under the css folder 
 function addOpacity(event) {
     // add appropriate CSS class
     if (!this.classList.contains('dim')){
